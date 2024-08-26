@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		258D512D70BE756F743A15EC /* Pods_ReactNativeSkarbSDK_ReactNativeSkarbSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0030F15172EF822FB78D22B /* Pods_ReactNativeSkarbSDK_ReactNativeSkarbSDKTests.framework */; };
+		DFA18E2FE27B23DC6185750D /* Pods_ReactNativeSkarbSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7244334CADB837C5167444CB /* Pods_ReactNativeSkarbSDK.framework */; };
+		E565EF1D2C74F3A200BC474F /* ReactNativeSkarbSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = E565EF1C2C74F3A200BC474F /* ReactNativeSkarbSDK.docc */; };
+		E565EF232C74F3A300BC474F /* ReactNativeSkarbSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E565EF182C74F3A200BC474F /* ReactNativeSkarbSDK.framework */; };
+		E565EF282C74F3A300BC474F /* ReactNativeSkarbSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E565EF272C74F3A300BC474F /* ReactNativeSkarbSDKTests.swift */; };
+		E565EF292C74F3A300BC474F /* ReactNativeSkarbSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E565EF1B2C74F3A200BC474F /* ReactNativeSkarbSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E565EF242C74F3A300BC474F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E565EF0F2C74F3A200BC474F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E565EF172C74F3A200BC474F;
+			remoteInfo = ReactNativeSkarbSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23BF9DDBF8900546F5A56DEC /* Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		683451B957A8F24416A11393 /* Pods-ReactNativeSkarbSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSkarbSDK.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeSkarbSDK/Pods-ReactNativeSkarbSDK.release.xcconfig"; sourceTree = "<group>"; };
+		7244334CADB837C5167444CB /* Pods_ReactNativeSkarbSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeSkarbSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CF18077B79EA162DDD3892 /* Pods-ReactNativeSkarbSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSkarbSDK.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeSkarbSDK/Pods-ReactNativeSkarbSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		AF222CC25A933F3B8BB55A66 /* Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0030F15172EF822FB78D22B /* Pods_ReactNativeSkarbSDK_ReactNativeSkarbSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeSkarbSDK_ReactNativeSkarbSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E565EF182C74F3A200BC474F /* ReactNativeSkarbSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactNativeSkarbSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E565EF1B2C74F3A200BC474F /* ReactNativeSkarbSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeSkarbSDK.h; sourceTree = "<group>"; };
+		E565EF1C2C74F3A200BC474F /* ReactNativeSkarbSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ReactNativeSkarbSDK.docc; sourceTree = "<group>"; };
+		E565EF222C74F3A300BC474F /* ReactNativeSkarbSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeSkarbSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E565EF272C74F3A300BC474F /* ReactNativeSkarbSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeSkarbSDKTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E565EF152C74F3A200BC474F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA18E2FE27B23DC6185750D /* Pods_ReactNativeSkarbSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E565EF1F2C74F3A300BC474F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E565EF232C74F3A300BC474F /* ReactNativeSkarbSDK.framework in Frameworks */,
+				258D512D70BE756F743A15EC /* Pods_ReactNativeSkarbSDK_ReactNativeSkarbSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60A3A8CB68D270ED49B9F60A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7244334CADB837C5167444CB /* Pods_ReactNativeSkarbSDK.framework */,
+				D0030F15172EF822FB78D22B /* Pods_ReactNativeSkarbSDK_ReactNativeSkarbSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F1B7CC055FE3933CD0E49C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8CF18077B79EA162DDD3892 /* Pods-ReactNativeSkarbSDK.debug.xcconfig */,
+				683451B957A8F24416A11393 /* Pods-ReactNativeSkarbSDK.release.xcconfig */,
+				23BF9DDBF8900546F5A56DEC /* Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.debug.xcconfig */,
+				AF222CC25A933F3B8BB55A66 /* Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E565EF0E2C74F3A200BC474F = {
+			isa = PBXGroup;
+			children = (
+				E565EF1A2C74F3A200BC474F /* ReactNativeSkarbSDK */,
+				E565EF262C74F3A300BC474F /* ReactNativeSkarbSDKTests */,
+				E565EF192C74F3A200BC474F /* Products */,
+				D3F1B7CC055FE3933CD0E49C /* Pods */,
+				60A3A8CB68D270ED49B9F60A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E565EF192C74F3A200BC474F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E565EF182C74F3A200BC474F /* ReactNativeSkarbSDK.framework */,
+				E565EF222C74F3A300BC474F /* ReactNativeSkarbSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E565EF1A2C74F3A200BC474F /* ReactNativeSkarbSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E565EF1B2C74F3A200BC474F /* ReactNativeSkarbSDK.h */,
+				E565EF1C2C74F3A200BC474F /* ReactNativeSkarbSDK.docc */,
+			);
+			path = ReactNativeSkarbSDK;
+			sourceTree = "<group>";
+		};
+		E565EF262C74F3A300BC474F /* ReactNativeSkarbSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				E565EF272C74F3A300BC474F /* ReactNativeSkarbSDKTests.swift */,
+			);
+			path = ReactNativeSkarbSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E565EF132C74F3A200BC474F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E565EF292C74F3A300BC474F /* ReactNativeSkarbSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E565EF172C74F3A200BC474F /* ReactNativeSkarbSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E565EF2C2C74F3A300BC474F /* Build configuration list for PBXNativeTarget "ReactNativeSkarbSDK" */;
+			buildPhases = (
+				5F93F7CA0716CD4CD8CC8DEE /* [CP] Check Pods Manifest.lock */,
+				E565EF132C74F3A200BC474F /* Headers */,
+				E565EF142C74F3A200BC474F /* Sources */,
+				E565EF152C74F3A200BC474F /* Frameworks */,
+				E565EF162C74F3A200BC474F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeSkarbSDK;
+			productName = ReactNativeSkarbSDK;
+			productReference = E565EF182C74F3A200BC474F /* ReactNativeSkarbSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E565EF212C74F3A300BC474F /* ReactNativeSkarbSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E565EF2F2C74F3A300BC474F /* Build configuration list for PBXNativeTarget "ReactNativeSkarbSDKTests" */;
+			buildPhases = (
+				3318E00C7BF8A1D803BFBF98 /* [CP] Check Pods Manifest.lock */,
+				E565EF1E2C74F3A300BC474F /* Sources */,
+				E565EF1F2C74F3A300BC474F /* Frameworks */,
+				E565EF202C74F3A300BC474F /* Resources */,
+				324A06AA326879E2B42286E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E565EF252C74F3A300BC474F /* PBXTargetDependency */,
+			);
+			name = ReactNativeSkarbSDKTests;
+			productName = ReactNativeSkarbSDKTests;
+			productReference = E565EF222C74F3A300BC474F /* ReactNativeSkarbSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E565EF0F2C74F3A200BC474F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					E565EF172C74F3A200BC474F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					E565EF212C74F3A300BC474F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = E565EF122C74F3A200BC474F /* Build configuration list for PBXProject "ReactNativeSkarbSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E565EF0E2C74F3A200BC474F;
+			productRefGroup = E565EF192C74F3A200BC474F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E565EF172C74F3A200BC474F /* ReactNativeSkarbSDK */,
+				E565EF212C74F3A300BC474F /* ReactNativeSkarbSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E565EF162C74F3A200BC474F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E565EF202C74F3A300BC474F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		324A06AA326879E2B42286E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3318E00C7BF8A1D803BFBF98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F93F7CA0716CD4CD8CC8DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeSkarbSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E565EF142C74F3A200BC474F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E565EF1D2C74F3A200BC474F /* ReactNativeSkarbSDK.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E565EF1E2C74F3A300BC474F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E565EF282C74F3A300BC474F /* ReactNativeSkarbSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E565EF252C74F3A300BC474F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E565EF172C74F3A200BC474F /* ReactNativeSkarbSDK */;
+			targetProxy = E565EF242C74F3A300BC474F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E565EF2A2C74F3A300BC474F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E565EF2B2C74F3A300BC474F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E565EF2D2C74F3A300BC474F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CF18077B79EA162DDD3892 /* Pods-ReactNativeSkarbSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4A399V65AN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goutron.ReactNativeSkarbSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E565EF2E2C74F3A300BC474F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683451B957A8F24416A11393 /* Pods-ReactNativeSkarbSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4A399V65AN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goutron.ReactNativeSkarbSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E565EF302C74F3A300BC474F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BF9DDBF8900546F5A56DEC /* Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A399V65AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goutron.ReactNativeSkarbSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E565EF312C74F3A300BC474F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF222CC25A933F3B8BB55A66 /* Pods-ReactNativeSkarbSDK-ReactNativeSkarbSDKTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A399V65AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goutron.ReactNativeSkarbSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E565EF122C74F3A200BC474F /* Build configuration list for PBXProject "ReactNativeSkarbSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E565EF2A2C74F3A300BC474F /* Debug */,
+				E565EF2B2C74F3A300BC474F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E565EF2C2C74F3A300BC474F /* Build configuration list for PBXNativeTarget "ReactNativeSkarbSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E565EF2D2C74F3A300BC474F /* Debug */,
+				E565EF2E2C74F3A300BC474F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E565EF2F2C74F3A300BC474F /* Build configuration list for PBXNativeTarget "ReactNativeSkarbSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E565EF302C74F3A300BC474F /* Debug */,
+				E565EF312C74F3A300BC474F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E565EF0F2C74F3A200BC474F /* Project object */;
+}

@@ -1,4 +1,5 @@
 import { NativeModules, Platform } from 'react-native';
+import type { ISkarbSDKManager } from './global';
 
 const LINKING_ERROR =
   `The package 'react-native-scarb-sdk' doesn't seem to be linked. Make sure: \n\n` +
@@ -6,8 +7,8 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';
 
-const ScarbSdk = NativeModules.ScarbSdk
-  ? NativeModules.ScarbSdk
+const ScarbSdk: ISkarbSDKManager | {} = NativeModules.SkarbSDKManager
+  ? NativeModules.SkarbSDKManager
   : new Proxy(
       {},
       {
@@ -17,6 +18,18 @@ const ScarbSdk = NativeModules.ScarbSdk
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return ScarbSdk.multiply(a, b);
-}
+export const initialize = (
+  ...args: Parameters<ISkarbSDKManager['initializeSDK']>
+) => {
+  (ScarbSdk as ISkarbSDKManager).initializeSDK(...args);
+};
+
+export const sendSource = (
+  ...args: Parameters<ISkarbSDKManager['sendSource']>
+) => {
+  (ScarbSdk as ISkarbSDKManager).sendSource(...args);
+};
+
+export const sendTest = (...args: Parameters<ISkarbSDKManager['sendTest']>) => {
+  (ScarbSdk as ISkarbSDKManager).sendTest(...args);
+};
