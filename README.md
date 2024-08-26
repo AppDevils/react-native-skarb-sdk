@@ -12,11 +12,21 @@ npm install react-native-scarb-sdk
 
 
 ```js
-import { multiply } from 'react-native-scarb-sdk';
+import * as SkarbSDKManager from 'react-native-scarb-sdk';
 
-// ...
+const init = () => {
+  const deviceId = generateUuid();
+  SkarbSDKManager.initialize('*your-id*', true, deviceId);
+};
 
-const result = await multiply(3, 7);
+const sendSource = () => {
+  SkarbSDKManager.sendSource('source-example', { click: 'clicked govno' });
+};
+
+const sendTest = () => {
+  SkarbSDKManager.sendTest('test', 'test');
+};
+
 ```
 
 
