@@ -8,6 +8,11 @@ Bridge to work with SkarbSDK in react-native
 npm install react-native-scarb-sdk
 ```
 
+Install Cocoapods
+```sh
+cd ios && pod install && cd ..
+```
+
 ## Usage
 
 
