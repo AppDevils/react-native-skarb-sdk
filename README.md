@@ -13,6 +13,12 @@ Install Cocoapods
 cd ios && pod install && cd ..
 ```
 
+In ios/Podfile add line use_frameworks after taget do:
+
+```js
+use_frameworks! :linkage => :static # add
+```
+
 ## Usage
 
 
