@@ -1,6 +1,6 @@
 {
   "name": "react-native-scarb-sdk",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Bridge to work with SkarbSDK in react-native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -51,14 +51,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GilTRipper/react-native-scarb-sdk.git"
+    "url": "git+https://github.com/AppDevils/react-native-skarb-sdk.git"
   },
   "author": "Gil T Ripper <73825055+GilTRipper@users.noreply.github.com> (https://github.com/GilTRipper)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GilTRipper/react-native-scarb-sdk/issues"
+    "url": "https://github.com/AppDevils/react-native-skarb-sdk/issues"
   },
-  "homepage": "https://github.com/GilTRipper/react-native-scarb-sdk#readme",
+  "homepage": "https://github.com/AppDevils/react-native-skarb-sdk#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
