@@ -8,15 +8,16 @@ Bridge to work with SkarbSDK in react-native
 npm install react-native-scarb-sdk
 ```
 
-Install Cocoapods
-```sh
-cd ios && pod install && cd ..
-```
 
-In ios/Podfile add line use_frameworks after taget do:
+In ios/Podfile add line use_frameworks after target do:
 
 ```js
 use_frameworks! :linkage => :static # add
+```
+
+Install Cocoapods
+```sh
+cd ios && pod install && cd ..
 ```
 
 ## Usage
